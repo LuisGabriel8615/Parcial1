@@ -1,0 +1,669 @@
+CRITICAL - 2024-09-02 00:19:01 --> Error: Class "App\Controllers\ProductosModel" not found
+[Method: GET, Route: ver_productos]
+in APPPATH\Controllers\ProductosController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 00:22:05 --> Error: Class "App\Controllers\ProductosModel" not found
+[Method: GET, Route: ver_productos]
+in APPPATH\Controllers\ProductosController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 00:26:52 --> Error: Class "App\Controllers\ProductosModel" not found
+[Method: GET, Route: ver_productos]
+in APPPATH\Controllers\ProductosController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 00:28:18 --> Error: Class "App\Controllers\ProductosModel" not found
+[Method: GET, Route: ver_productos]
+in APPPATH\Controllers\ProductosController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 00:30:55 --> Error: Class "App\Controllers\ProductosModel" not found
+[Method: GET, Route: ver_productos]
+in APPPATH\Controllers\ProductosController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 00:37:06 --> Error: Class "App\Controllers\ProductosModel" not found
+[Method: GET, Route: ver_productos]
+in APPPATH\Controllers\ProductosController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-02 00:46:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'parcial1', 3306, '', 0)
+#1 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\parcial1\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\parcial1\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\parcial1\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\parcial1\app\Controllers\ProductosController.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+#8 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+#9 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\parcial1\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\parcial1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\parcial1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\parcial1\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\parcial1\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\parcial1\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\parcial1\app\Controllers\ProductosController.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+#7 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+#8 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\parcial1\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\parcial1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\parcial1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-02 00:46:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: ver_productos]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\ProductosController.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 00:54:00 --> ErrorException: Undefined variable $ciudadano
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 34.
+ 1 APPPATH\Views\Productos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ciudadano', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(12): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 00:55:00 --> ErrorException: Undefined variable $ciudadano
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 34.
+ 1 APPPATH\Views\Productos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ciudadano', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(12): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 00:55:06 --> ErrorException: Undefined variable $ciudadano
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 34.
+ 1 APPPATH\Views\Productos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ciudadano', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(12): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 00:55:29 --> ErrorException: Undefined array key "dproducto_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 44.
+ 1 APPPATH\Views\Productos.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dproducto_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(12): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 02:51:32 --> ParseError: Unclosed '{' on line 7
+[Method: GET, Route: ver_productos]
+in APPPATH\Controllers\ProductosController.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\parcial1\\app\\Controllers\\ProductosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProductosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProductosController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\ProductosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-02 03:18:33 --> mysqli_sql_exception: Column 'producto_id' cannot be null in C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\parcial1\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\parcial1\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\parcial1\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\parcial1\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\parcial1\app\Controllers\ProductosController.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(933): App\Controllers\ProductosController->guardarproductos()
+#9 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+#10 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\parcial1\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\parcial1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\parcial1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-02 03:18:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'producto_id' cannot be null
+[Method: GET, Route: guardar_productos]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `productos` (`producto_id`, `nombre`, `descripcion`, `cantidad_existencia`, `fecha_vencimiento`, `tipo_producto_id`) VALUES (:producto_id:, :nombre:, :descripcion:, :cantidad_existencia:, :fecha_vencimiento:, :tipo_producto_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\ProductosController.php(33): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->guardarproductos()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:18:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'producto_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `productos` (`producto_id`, `nombre`, `descripcion`, `cantidad_existencia`, `fecha_vencimiento`, `tipo_producto_id`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `productos` (`producto_id`, `nombre`, `descripcion`, `cantidad_existencia`, `fecha_vencimiento`, `tipo_producto_id`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `productos` (`producto_id`, `nombre`, `descripcion`, `cantidad_existencia`, `fecha_vencimiento`, `tipo_producto_id`) VALUES (:producto_id:, :nombre:, :descripcion:, :cantidad_existencia:, :fecha_vencimiento:, :tipo_producto_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\ProductosController.php(33): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->guardarproductos()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:18:33 --> [Caused by] mysqli_sql_exception: Column 'producto_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `productos` (`producto_id`, `nombre`, `descripcion`, `cantidad_existencia`, `fecha_vencimiento`, `tipo_producto_id`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `productos` (`producto_id`, `nombre`, `descripcion`, `cantidad_existencia`, `fecha_vencimiento`, `tipo_producto_id`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `productos` (`producto_id`, `nombre`, `descripcion`, `cantidad_existencia`, `fecha_vencimiento`, `tipo_producto_id`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `productos` (`producto_id`, `nombre`, `descripcion`, `cantidad_existencia`, `fecha_vencimiento`, `tipo_producto_id`) VALUES (:producto_id:, :nombre:, :descripcion:, :cantidad_existencia:, :fecha_vencimiento:, :tipo_producto_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductosController.php(33): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->guardarproductos()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-02 03:27:24 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\parcial1\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\parcial1\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\parcial1\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\parcial1\app\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+#8 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+#9 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\parcial1\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\parcial1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\parcial1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-02 03:27:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: GET, Route: eliminar_producto/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:27:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:27:24 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `productos`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-02 03:30:21 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\parcial1\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\parcial1\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\parcial1\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\parcial1\app\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+#8 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+#9 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\parcial1\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\parcial1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\parcial1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-02 03:30:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: GET, Route: eliminar_producto/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:30:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:30:21 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `productos`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-02 03:31:10 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\parcial1\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\parcial1\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\parcial1\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\parcial1\app\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+#8 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+#9 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\parcial1\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\parcial1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\parcial1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-02 03:31:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: GET, Route: eliminar_producto/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:31:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:31:10 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `productos`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-02 03:40:24 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\parcial1\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\parcial1\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\parcial1\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\parcial1\app\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+#8 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+#9 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\parcial1\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\parcial1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\parcial1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-02 03:40:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: GET, Route: eliminar_producto/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:40:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:40:24 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `productos`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `productos`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-02 03:43:32 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\parcial1\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\parcial1\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\parcial1\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\parcial1\app\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('1')
+#8 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+#9 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\parcial1\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\parcial1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\parcial1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-02 03:43:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: GET, Route: eliminar_producto/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:43:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `productos`
+WHERE `id` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `productos`
+WHERE `id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:43:32 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `productos`
+WHERE `id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `productos`
+WHERE `id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `productos`
+WHERE `id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `productos`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\ProductosController.php(39): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:51:16 --> Error: Undefined constant "App\Controllers\producto_id"
+[Method: GET, Route: eliminar_producto/1]
+in APPPATH\Controllers\ProductosController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:51:20 --> Error: Undefined constant "App\Controllers\producto_id"
+[Method: GET, Route: eliminar_producto/1]
+in APPPATH\Controllers\ProductosController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 03:54:28 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "productos" cannot be found.
+[Method: GET, Route: eliminar_producto/2]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('productos')
+ 2 APPPATH\Controllers\ProductosController.php(40): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 04:36:45 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: eliminar_producto/5]
+in APPPATH\Views\Productos.php on line 31.
+ 1 APPPATH\Views\Productos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(58): view('Productos')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->eliminarproducto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 04:39:22 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: nuevo_producto1]
+in APPPATH\Controllers\ProductosController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\parcial1\\app\\Controllers\\ProductosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProductosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProductosController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\ProductosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 04:39:24 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: ver_productos]
+in APPPATH\Controllers\ProductosController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\parcial1\\app\\Controllers\\ProductosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProductosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProductosController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\ProductosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 04:39:26 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: ver_productos]
+in APPPATH\Controllers\ProductosController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\parcial1\\app\\Controllers\\ProductosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProductosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProductosController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\ProductosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 04:40:02 --> ErrorException: Undefined variable $datos
+[Method: POST, Route: guardar]
+in APPPATH\Views\Productos.php on line 31.
+ 1 APPPATH\Views\Productos.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(33): view('Productos')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->guardarprod()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 05:02:43 --> ErrorException: Undefined array key "tipo_prod_id"
+[Method: GET, Route: buscar_producto/7]
+in APPPATH\Views\Form_modificar_producto.php on line 28.
+ 1 APPPATH\Views\Form_modificar_producto.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_prod_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(46): view('form_modificar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('7')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

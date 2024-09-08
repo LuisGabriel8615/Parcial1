@@ -1,0 +1,42 @@
+CRITICAL - 2024-09-06 00:28:08 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: nuevo_producto1]
+in APPPATH\Views\Form_nuevo_producto1.php on line 17.
+ 1 APPPATH\Views\Form_nuevo_producto1.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Form_nuevo_producto1', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(23): view('Form_nuevo_producto1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->nuevoproducto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-06 00:28:11 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: nuevo_producto1]
+in APPPATH\Views\Form_nuevo_producto1.php on line 17.
+ 1 APPPATH\Views\Form_nuevo_producto1.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Form_nuevo_producto1', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(23): view('Form_nuevo_producto1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->nuevoproducto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-06 00:29:43 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: nuevo_producto1]
+in APPPATH\Views\Form_nuevo_producto1.php on line 17.
+ 1 APPPATH\Views\Form_nuevo_producto1.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Form_nuevo_producto1', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(23): view('Form_nuevo_producto1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->nuevoproducto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

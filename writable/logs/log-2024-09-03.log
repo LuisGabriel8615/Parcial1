@@ -1,0 +1,740 @@
+CRITICAL - 2024-09-03 04:24:13 --> ErrorException: Undefined variable $options
+[Method: GET, Route: buscar_producto/1]
+in APPPATH\Views\Form_modificar_producto.php on line 36.
+ 1 APPPATH\Views\Form_modificar_producto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $options', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(47): view('form_modificar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 04:32:26 --> ErrorException: Undefined variable $options
+[Method: GET, Route: buscar_producto/1]
+in APPPATH\Views\Form_modificar_producto.php on line 36.
+ 1 APPPATH\Views\Form_modificar_producto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $options', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(47): view('form_modificar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 04:34:11 --> ErrorException: Undefined variable $datas
+[Method: GET, Route: buscar_producto/1]
+in APPPATH\Views\Form_modificar_producto.php on line 36.
+ 1 APPPATH\Views\Form_modificar_producto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datas', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(47): view('form_modificar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 04:35:42 --> ErrorException: Undefined variable $datas
+[Method: GET, Route: buscar_producto/1]
+in APPPATH\Views\Form_modificar_producto.php on line 36.
+ 1 APPPATH\Views\Form_modificar_producto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datas', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(47): view('form_modificar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 04:35:47 --> ErrorException: Undefined variable $datas
+[Method: GET, Route: buscar_producto/1]
+in APPPATH\Views\Form_modificar_producto.php on line 36.
+ 1 APPPATH\Views\Form_modificar_producto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datas', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(47): view('form_modificar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 04:48:19 --> ErrorException: Undefined variable $options
+[Method: GET, Route: buscar_producto/1]
+in APPPATH\Views\Form_modificar_producto.php on line 35.
+ 1 APPPATH\Views\Form_modificar_producto.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $options', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(47): view('form_modificar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 05:00:03 --> ErrorException: Undefined variable $options
+[Method: GET, Route: buscar_producto/1]
+in APPPATH\Views\Form_modificar_producto.php on line 35.
+ 1 APPPATH\Views\Form_modificar_producto.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $options', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(48): view('form_modificar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 05:00:33 --> ErrorException: Undefined variable $datos1
+[Method: GET, Route: buscar_producto/1]
+in APPPATH\Views\Form_modificar_producto.php on line 35.
+ 1 APPPATH\Views\Form_modificar_producto.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos1', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(48): view('form_modificar_producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 05:01:43 --> ErrorException: Undefined variable $datos1
+[Method: GET, Route: buscar_producto/1]
+in APPPATH\Views\Form_modificar_producto.php on line 35.
+ 1 APPPATH\Views\Form_modificar_producto.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos1', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [...], true)
+ 5 APPPATH\Controllers\ProductosController.php(53): view('form_modificar_producto', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 05:08:07 --> ErrorException: Undefined variable $datos1
+[Method: GET, Route: buscar_producto/1]
+in APPPATH\Views\Form_modificar_producto.php on line 35.
+ 1 APPPATH\Views\Form_modificar_producto.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos1', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [...], true)
+ 5 APPPATH\Controllers\ProductosController.php(53): view('form_modificar_producto', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 05:14:04 --> ErrorException: Undefined variable $options
+[Method: GET, Route: buscar_producto/1]
+in APPPATH\Views\Form_modificar_producto.php on line 35.
+ 1 APPPATH\Views\Form_modificar_producto.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $options', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_modificar_producto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('form_modificar_producto', [...], true)
+ 5 APPPATH\Controllers\ProductosController.php(53): view('form_modificar_producto', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->buscarprod('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-03 05:24:09 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `product...', 0)
+#1 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xampp\htdocs\parcial1\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xampp\htdocs\parcial1\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\parcial1\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\parcial1\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\parcial1\app\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+#9 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+#10 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\parcial1\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\parcial1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\parcial1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-03 05:24:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: modificar_productos]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `producto_id` = :producto_id:, `nombre` = :nombre:, `descripcion` = :descripcion:, `cantidad_existencia` = :cantidad_existencia:, `fecha_vencimiento` = :fecha_vencimiento:, `tipo_producto_id` = :tipo_producto_id:
+WHERE `productos`.`producto_id` IN :productos.producto_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 05:24:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `producto_id` = :producto_id:, `nombre` = :nombre:, `descripcion` = :descripcion:, `cantidad_existencia` = :cantidad_existencia:, `fecha_vencimiento` = :fecha_vencimiento:, `tipo_producto_id` = :tipo_producto_id:
+WHERE `productos`.`producto_id` IN :productos.producto_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 05:24:09 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `producto_id` = :producto_id:, `nombre` = :nombre:, `descripcion` = :descripcion:, `cantidad_existencia` = :cantidad_existencia:, `fecha_vencimiento` = :fecha_vencimiento:, `tipo_producto_id` = :tipo_producto_id:
+WHERE `productos`.`producto_id` IN :productos.producto_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-03 05:25:07 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `product...', 0)
+#1 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xampp\htdocs\parcial1\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xampp\htdocs\parcial1\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\parcial1\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\parcial1\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\parcial1\app\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+#9 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+#10 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\parcial1\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\parcial1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\parcial1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-03 05:25:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: modificar_productos]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `producto_id` = :producto_id:, `nombre` = :nombre:, `descripcion` = :descripcion:, `cantidad_existencia` = :cantidad_existencia:, `fecha_vencimiento` = :fecha_vencimiento:, `tipo_producto_id` = :tipo_producto_id:
+WHERE `productos`.`producto_id` IN :productos.producto_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 05:25:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `producto_id` = :producto_id:, `nombre` = :nombre:, `descripcion` = :descripcion:, `cantidad_existencia` = :cantidad_existencia:, `fecha_vencimiento` = :fecha_vencimiento:, `tipo_producto_id` = :tipo_producto_id:
+WHERE `productos`.`producto_id` IN :productos.producto_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 05:25:07 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `producto_id` = :producto_id:, `nombre` = :nombre:, `descripcion` = :descripcion:, `cantidad_existencia` = :cantidad_existencia:, `fecha_vencimiento` = :fecha_vencimiento:, `tipo_producto_id` = :tipo_producto_id:
+WHERE `productos`.`producto_id` IN :productos.producto_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-03 05:27:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\parcial1\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `product...', 0)
+#1 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xampp\htdocs\parcial1\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xampp\htdocs\parcial1\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xampp\htdocs\parcial1\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\parcial1\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\parcial1\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\parcial1\app\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+#9 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+#10 C:\xampp\htdocs\parcial1\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\parcial1\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\parcial1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\parcial1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-03 05:27:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: modificar_productos]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `producto_id` = :producto_id:, `nombre` = :nombre:, `descripcion` = :descripcion:, `cantidad_existencia` = :cantidad_existencia:, `fecha_vencimiento` = :fecha_vencimiento:, `tipo_producto_id` = :tipo_producto_id:
+WHERE `productos`.`producto_id` IN :productos.producto_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 05:27:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `producto_id` = :producto_id:, `nombre` = :nombre:, `descripcion` = :descripcion:, `cantidad_existencia` = :cantidad_existencia:, `fecha_vencimiento` = :fecha_vencimiento:, `tipo_producto_id` = :tipo_producto_id:
+WHERE `productos`.`producto_id` IN :productos.producto_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 05:27:50 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ventas`.`productos`, CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`tipo_producto_id`) REFERENCES `tipos_producto` (`tipos_producto_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `productos` SET `producto_id` = \'1\', `nombre` = \'Zapatos\', `descripcion` = \'Talla 9 Hombre\', `cantidad_existencia` = \'2\', `fecha_vencimiento` = \'2024-09-02\', `tipo_producto_id` = NULL
+WHERE `productos`.`producto_id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `producto_id` = :producto_id:, `nombre` = :nombre:, `descripcion` = :descripcion:, `cantidad_existencia` = :cantidad_existencia:, `fecha_vencimiento` = :fecha_vencimiento:, `tipo_producto_id` = :tipo_producto_id:
+WHERE `productos`.`producto_id` IN :productos.producto_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ProductosController.php(82): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->modificarproducto()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:00:25 --> ErrorException: Undefined variable $options
+[Method: GET, Route: nuevo_producto1]
+in APPPATH\Views\Form_nuevo_producto1.php on line 80.
+ 1 APPPATH\Views\Form_nuevo_producto1.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $options', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php', 80)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Form_nuevo_producto1', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(21): view('Form_nuevo_producto1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->nuevoproducto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:04:21 --> ErrorException: Undefined variable $options
+[Method: GET, Route: nuevo_producto1]
+in APPPATH\Views\Form_nuevo_producto1.php on line 81.
+ 1 APPPATH\Views\Form_nuevo_producto1.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $options', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Form_nuevo_producto1', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(21): view('Form_nuevo_producto1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->nuevoproducto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:07:37 --> ErrorException: Undefined array key "nombre_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 41.
+ 1 APPPATH\Views\Productos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(16): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:07:40 --> ErrorException: Undefined array key "nombre_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 41.
+ 1 APPPATH\Views\Productos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(16): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:10:03 --> ErrorException: Undefined array key "nombre_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 41.
+ 1 APPPATH\Views\Productos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:11:55 --> ErrorException: Undefined array key "nombre_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 41.
+ 1 APPPATH\Views\Productos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:12:01 --> ErrorException: Undefined array key "nombre_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 41.
+ 1 APPPATH\Views\Productos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:14:30 --> ErrorException: Undefined array key "nombre_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 41.
+ 1 APPPATH\Views\Productos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:15:06 --> ErrorException: Undefined array key "nombre_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 41.
+ 1 APPPATH\Views\Productos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:17:56 --> ErrorException: Undefined array key "nombre_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 41.
+ 1 APPPATH\Views\Productos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:18:24 --> ErrorException: Undefined array key "nombre_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 41.
+ 1 APPPATH\Views\Productos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:22:59 --> ErrorException: Undefined array key "nombre_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 43.
+ 1 APPPATH\Views\Productos.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:23:07 --> ErrorException: Undefined array key "nombre_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 43.
+ 1 APPPATH\Views\Productos.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:26:41 --> ParseError: syntax error, unexpected token ",", expecting "]"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 43.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 3 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:31:59 --> ErrorException: Undefined variable $options
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 34.
+ 1 APPPATH\Views\Productos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $options', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:32:27 --> ErrorException: Undefined array key "producto_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 37.
+ 1 APPPATH\Views\Productos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:41:45 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 37.
+ 1 APPPATH\Views\Productos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:42:34 --> ErrorException: Undefined variable $option
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 38.
+ 1 APPPATH\Views\Productos.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $option', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:43:16 --> ErrorException: Undefined array key "producto_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 37.
+ 1 APPPATH\Views\Productos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:43:29 --> ErrorException: Undefined array key "producto_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 37.
+ 1 APPPATH\Views\Productos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:43:32 --> ErrorException: Undefined array key "producto_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 37.
+ 1 APPPATH\Views\Productos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:43:48 --> ErrorException: Undefined variable $option
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 42.
+ 1 APPPATH\Views\Productos.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $option', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:44:13 --> ErrorException: Undefined variable $option
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 42.
+ 1 APPPATH\Views\Productos.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $option', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:44:55 --> ErrorException: Undefined array key "producto_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 37.
+ 1 APPPATH\Views\Productos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:45:42 --> ErrorException: Undefined array key "producto_id"
+[Method: GET, Route: ver_productos]
+in APPPATH\Views\Productos.php on line 37.
+ 1 APPPATH\Views\Productos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_id"', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Productos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(18): view('Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:47:50 --> ErrorException: Undefined variable $options
+[Method: GET, Route: nuevo_producto1]
+in APPPATH\Views\Form_nuevo_producto1.php on line 81.
+ 1 APPPATH\Views\Form_nuevo_producto1.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $options', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Form_nuevo_producto1', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(20): view('Form_nuevo_producto1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->nuevoproducto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 23:49:37 --> ErrorException: Undefined variable $options
+[Method: GET, Route: nuevo_producto1]
+in APPPATH\Views\Form_nuevo_producto1.php on line 81.
+ 1 APPPATH\Views\Form_nuevo_producto1.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $options', 'C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\parcial1\\app\\Views\\Form_nuevo_producto1.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Form_nuevo_producto1', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(23): view('Form_nuevo_producto1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductosController->nuevoproducto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
